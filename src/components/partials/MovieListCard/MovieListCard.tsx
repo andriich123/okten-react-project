@@ -1,8 +1,8 @@
 import { FC } from "react";
 import { IMovie } from "../../../interfaces/movie";
-import css from "./MovieListCard.module.scss";
-import StarRatings from "react-star-ratings";
 import { PosterPreview } from "../PosterPreview";
+import { StarsRating } from "../../common/StarsRating";
+import css from "./MovieListCard.module.scss";
 
 interface IProps {
   movie: IMovie;
@@ -24,7 +24,7 @@ const MovieListCard: FC<IProps> = ({ movie }) => {
       <h3 className={css.title}>{movie.title}</h3>
 
       <div className={css.rating}>
-        <StarRatings
+        <StarsRating
           rating={movie.vote_average / 2}
           starRatedColor="orange"
           numberOfStars={5}

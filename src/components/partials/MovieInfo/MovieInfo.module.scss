@@ -19,17 +19,6 @@
   }
 }
 
-.badgeGenres {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translateY(-20%);
-  text-align: center;
-}
-
 .content {
   display: flex;
   gap: 50px;

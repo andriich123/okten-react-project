@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { moviesService } from "../../../services/moviesService";
 import { IMovieDetails } from "../../../interfaces/movie-details";
-
-import css from "./MovieInfo.module.scss";
 import { ProductionCompanies } from "./ProductionCompanies";
-import { Badge } from "../../common/Badge";
+import { GenreBadge } from "./GenreBadge";
+import css from "./MovieInfo.module.scss";
 
 const MovieInfo = () => {
   const { id: movieId } = useParams();
@@ -40,14 +39,7 @@ const MovieInfo = () => {
             alt="Poster"
             className={css.poster}
           />
-
-          <div className={css.badgeGenres}>
-            {movie.genres.map((genre) => (
-              <Link key={genre.id} to={`/genre/${genre.id}`}>
-                <Badge label={genre.name} />
-              </Link>
-            ))}
-          </div>
+          <GenreBadge genres={movie.genres} />
         </div>
 
         <div className={css.info}>
