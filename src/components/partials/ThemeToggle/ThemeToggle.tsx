@@ -11,7 +11,7 @@ const ThemeToggle = () => {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  if (theme === "dark") {
+  if (theme === "light") {
     return (
       <Sun
         className={css.icon}
@@ -22,7 +22,7 @@ const ThemeToggle = () => {
     );
   }
 
-  if (theme === "light") {
+  if (theme === "dark") {
     return <Moon className={css.icon} onClick={toggleTheme} size={30} />;
   }
 

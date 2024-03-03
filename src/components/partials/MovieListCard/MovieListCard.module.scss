@@ -13,50 +13,6 @@
   margin-top: 10px;
 }
 
-.overview {
-  margin-top: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 10;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  font-size: 1rem;
-  color: #ffffff;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.596);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 10px 10px 20px;
-}
-
-.posterWrapper {
-  cursor: pointer;
-  position: relative;
-  max-width: 300px;
-  height: auto;
-}
-
 .rating {
   margin-top: 10px;
-}
-
-.favoriteButtonWrapper {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.favoriteButton {
-  width: 30px;
-  height: 30px;
-
 }

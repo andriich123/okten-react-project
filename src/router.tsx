@@ -1,10 +1,10 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
-import MainLayout from "./layouts/MainLayout/MainLayout";
-import MoviesPage from "./pages/MoviesPage/MoviesPage";
-import { MovieInfoPage } from "./pages/MovieInfoPage/MovieInfoPage";
-import { GenreMoviesPage } from "./pages/GenreMoviesPage/GenreMoviesPage";
+import { MainLayout } from "./layouts/MainLayout/MainLayout";
+import { MoviesPage } from "./pages/MoviesPage";
+import { MovieInfoPage } from "./pages/MovieInfoPage";
+import { GenreMoviesPage } from "./pages/GenreMoviesPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
-import { FavoritesPage } from "./pages/FavoritesPage/FavoritesPage";
+import { FavoritesPage } from "./pages/FavoritesPage";
 
 export const router = createBrowserRouter([
   {

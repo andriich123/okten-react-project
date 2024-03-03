@@ -4,7 +4,7 @@ import { moviesService } from "../../../services/moviesService";
 import { IMovieDetails } from "../../../interfaces/movie-details";
 
 import css from "./MovieInfo.module.scss";
-import { ProductionCompanies } from "./ProductionCompanies/ProductionCompanies";
+import { ProductionCompanies } from "./ProductionCompanies";
 import { Badge } from "../../common/Badge";
 
 const MovieInfo = () => {
