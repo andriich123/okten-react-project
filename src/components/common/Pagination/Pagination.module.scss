@@ -1,0 +1,23 @@
+.wrapper {}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+}
+
+
+.navButton {
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 4px 8px;
+  background-color: var(--crayola);
+  border-radius: 2px;
+  border: 1px solid var(--crayola);
+  font-size: 1rem;
+}
+
+.active {
+  background-color: white;
+  color: var(--crayola);
+}

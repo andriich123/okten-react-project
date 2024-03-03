@@ -1,0 +1,36 @@
+
+html[data-theme="light"] {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e67e22;
+  --text-color: #34495e;
+  --background-color: #e0e3e3;
+  
+  --crayola: #779b73;
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  --dropdown-bg-color: #acafb3;
+  --dropdown-text-color: #ffffff;
+
+  --input-bg-color: #f1f6f8;
+  --input-text-color: #000000;
+}
+
+
+html[data-theme="dark"] {
+  --primary-color: #3498db;
+  --secondary-color: #20653d;
+  --accent-color: #f1ac70;
+  --text-color: #efefef;
+  --background-color: #031114;
+  
+  --crayola: #9b8473;
+  --box-shadow: 0 2px 4px rgba(122, 122, 122, 0.1);
+
+  --dropdown-bg-color: #0c5b8a;
+  --dropdown-text-color: #efefef;
+
+  --input-bg-color: #1e7eb5;
+  --input-text-color: #ffffff;
+}
+
